@@ -13,7 +13,7 @@ The `EventRecord` type contains a `title` field of type `string`.
 
 ### Fact 2: Client gallery returns the event title
 The `getClientGallery` method returns `title: event.title` when the event belongs to the client and the gallery is published.
-###something i didnt do
+
 
 **Evidence:** `src/services/event-service.ts` — `getClientGallery`.
 
